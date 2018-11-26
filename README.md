@@ -19,3 +19,10 @@ HTML5/CSS3/Bootstrap/FlexBox
 
 <https://k-iluschenko.github.io/Test-task-at-the-interview/test2/>
 ***
+### №3
+Верстка по psd макету
+
+HTML5/CSS3/
+
+<https://k-iluschenko.github.io/Test-task-at-the-interview/test3/>
+***
