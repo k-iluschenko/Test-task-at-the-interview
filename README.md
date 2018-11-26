@@ -24,5 +24,5 @@ HTML5/CSS3/Bootstrap/FlexBox
 
 HTML5/CSS3/
 
-<https://k-iluschenko.github.io/Test-task-at-the-interview/test3/>
+https://k-iluschenko.github.io/Test-task-at-the-interview/test3/
 ***
