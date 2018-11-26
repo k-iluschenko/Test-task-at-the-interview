@@ -8,5 +8,6 @@
    * Использование системы сборки. Главное условие — шаблонизатор для HTML, пре/пост-процессор CSS, разбиение вёрстки на компоненты/блоки.
    
    Jade/Stylus/JS/Gulp/
-  https://k-iluschenko.github.io/Test-task-at-the-interview/test1/dist/ 
+   
+  <https://k-iluschenko.github.io/Test-task-at-the-interview/test1/dist/>
 ***
