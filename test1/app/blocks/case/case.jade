@@ -1,0 +1,28 @@
+- var inputTitle = ["Полное ФИО", "Год рождения", "Место жительства", "Скайп", "Почта"];
+- var users = { name: "Илющенко Кирилл Александрович", birthYear: "1985", address: "г.Санкт-Петербург, Россия", skype: "k.iluschenko", mail: "k.iluschenko@gmail.com"};
+
+section.container__job
+	.job__img.center
+		img(src="img/job.png", srcset="img/job@2x.png 2x", alt="Дело")
+	for title, index in inputTitle
+		.job__about
+			h2.about__title !{title}
+			case title
+				when "Полное ФИО"
+					.input__border 
+						input(type="text" value=users.name size="30")
+				when "Год рождения"
+					.input__border 
+						input(type="text" value=users.birthYear size="30")
+				when "Место жительства"
+					.input__border 
+						input(type="text" value=users.address size="30")
+				when "Скайп"
+					.input__border 
+						input(type="text" value=users.skype size="35")
+				when "Почта"
+					.input__border 
+						input(type="text" value=users.mail size="35")
+				default
+					.input__border 
+						input(type="text" value="Нет данных" size="35")

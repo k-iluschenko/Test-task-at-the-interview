@@ -1,0 +1,56 @@
+.container__skills
+	margin-bottom 65px
+.skills__title
+	margin-left -1px
+	padding-bottom 9px
+	font-size 24px
+	font-weight 700
+.skills__description
+	margin-bottom 13px
+	font-size 15px
+	line-height 1.55
+	color #3d3d3d
+.skills__checkbox
+	display flex
+	flex-wrap wrap
+	.checkbox__text
+		margin-left 28px
+		font-size 21px
+		font-weight 700
+	.checkbox__col1
+		width 33%
+	.checkbox__col2
+		padding-left 3px
+		width 33%
+		.checkbox__text
+			margin-left 25px
+	.checkbox__col3
+		position relative
+		padding-left 17px
+		width 34%
+		.checkbox__text
+			margin-left 23px
+			line-height 1.2
+	.checkbox__label
+			height 35px
+input[type='checkbox']:checked, 
+input[type='checkbox']:not(:checked) 
+	position relative
+	left -9999px
+input[type='checkbox']:checked + span, 
+input[type='checkbox']:not(:checked) + span 
+	position relative
+	display inline-block
+	line-height 20px
+	cursor pointer
+input[type='checkbox']:checked + span:before,
+input[type='checkbox']:not(:checked) + span:before 
+	position absolute
+	top -5px
+	left -14px
+	width 24px
+	height 28px
+	content ''
+	background url(../../img/switch.png) no-repeat
+input[type='checkbox']:not(:checked) + span:before 
+	background-position -30px 0

@@ -1,0 +1,30 @@
+- var checkBoxCol1 = [{id: 1, title: "БЭМ/OOCSS", learn: true},{id: 1, title: "Pug (Jade)", learn: false},{id: 2,title: "Stylus/LESS/SASS",learn: true},{id: 3,title: "Работаю с SVG",learn: false},{id: 4,title: "Верстаю семантично",learn: true},{id: 5,title: "Accessibility (A11Y)",learn: false},{id: 6,title: "ES2015/ES2016",learn: true}];
+- var checkBoxCol2 = [{id: 7,title: "Gulp/GRUNT",learn: true},{id: 8,title: "Webpack",learn: false},{id: 9,title: "Дружу с WebGL",learn: false},{id: 10,title: "jQuery",learn: false},{id: 11,title: "Знаю/изучаю Angular",learn: false},{id: 12,title: "Знаю/изучаю React",learn: true},{id: 13,title: "Знаю/изучаю Node.js",learn: false}];
+- var checkBoxCol3 = [{id: 14,title: "Использую Git",learn: true},{id: 15,title: "С глазомером все ок",learn: true},{id: 16,title: "Читаю <a href='blog.csssr.ru'>blog.csssr.ru</a>",learn: false},{id: 17,title: "Я ленивый(-ая)",learn: false},{id: 18,title: "У меня хороший английский",learn: false}]
+
+section.container__skills
+	h2.skills__title Расскажите о себе чекбоксами
+	p.skills__description Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Кстати, отсутствие опыта не означает, что у вас меньше шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.
+	.skills__checkbox
+		.checkbox__col1
+			each val in checkBoxCol1
+				.checkbox__label
+					label
+						input(type="checkbox" value=val.title name="skills" checked=(val.learn ? "" : undefined))
+						span
+					.checkbox__text !{val.title}
+		.checkbox__col2
+			each val in checkBoxCol2
+				.checkbox__label
+					label
+						
+						input(type="checkbox" value=val.title name="skills" checked=(val.learn ? "" : undefined))
+						span
+					.checkbox__text !{val.title}
+		.checkbox__col3
+			each val in checkBoxCol3
+				.checkbox__label
+					label
+						input(type="checkbox" value=val.title name="skills" checked=(val.learn ? "" : undefined))
+						span
+					.checkbox__text !{val.title}

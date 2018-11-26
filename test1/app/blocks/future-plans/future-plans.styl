@@ -1,0 +1,51 @@
+.container__plans
+	margin-bottom 80px
+.plans__title
+	margin-bottom 8px
+	margin-left -2px
+	padding-left 2px
+	font-size 24px
+	font-weight 700
+	letter-spacing -0.07px
+.plans__description
+	margin-bottom 2px
+	margin-left 2px
+	font-size 15px
+	line-height 1.54
+	letter-spacing -0.09px
+	color #3d3d3d
+.plans__radio
+	margin-left 20px
+	padding-right 40px
+	display flex
+	flex-wrap wrap
+.radio__text
+	margin-left 13px
+	font-size 20px
+	font-weight 700
+	color #000
+.radio__wrapper
+	margin-right 40px
+input[type='radio']:checked, 
+input[type='radio']:not(:checked) 
+	position relative
+	left -99999px
+	display none
+input[type='radio']:checked + span, 
+input[type='radio']:not(:checked) + span 
+	position relative
+	display inline-block
+	line-height 20px
+	cursor pointer
+input[type='radio']:checked + span:before,
+input[type='radio']:not(:checked) + span:before 
+	position absolute
+	top -3px
+	left -20px
+	width 28px
+	height 28px
+	content ''
+	background url(../../img/radio-btn.png) no-repeat
+	background-position -1px 0
+input[type='radio']:not(:checked) + span:before 
+	background-position -31px 0

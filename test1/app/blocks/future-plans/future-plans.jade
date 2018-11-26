@@ -1,0 +1,11 @@
+- var plans = [{id:1, title: 'Верстать', isPlan: false},{id:2, title: 'Прокачиваться в JS', isPlan: true},{id:3, title: 'Менеджерство', isPlan: false},{id:4, title: 'Другое', isPlan: false},]
+
+section.container__plans
+	h2.plans__title Какие у вас планы на будущее?
+	p.plans__description Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.
+	.plans__radio
+		each val in plans
+			label.radio__wrapper
+				input(type="radio" value=val.title name="skills" checked=(val.isPlan ? "" : undefined))
+				span
+				.radio__text !{val.title}
