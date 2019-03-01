@@ -11,6 +11,7 @@
    Jade/Stylus/JS/Gulp/
    
   <https://k-iluschenko.github.io/Test-task-at-the-interview/test1/dist/>
+  
 ***
 ### №2
 Адаптивная верстка
@@ -18,11 +19,13 @@
 HTML5/CSS3/Bootstrap/FlexBox
 
 <https://k-iluschenko.github.io/Test-task-at-the-interview/test2/>
+
 ***
 ### №3
 Верстка по psd макету
 
 HTML5/CSS3/
 
-https://k-iluschenko.github.io/Test-task-at-the-interview/test3/
+<https://k-iluschenko.github.io/Test-task-at-the-interview/test3/>
+
 ***
